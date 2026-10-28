@@ -1,4 +1,3 @@
-# 10_nested_models.py
 from pydantic import BaseModel
 
 

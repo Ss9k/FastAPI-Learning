@@ -1,4 +1,3 @@
-# 05_validation_and_errors.py
 from pydantic import BaseModel, ValidationError
 
 

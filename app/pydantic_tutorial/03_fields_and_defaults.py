@@ -1,4 +1,3 @@
-# 04_fields_and_defaults.py
 from pydantic import BaseModel
 
 

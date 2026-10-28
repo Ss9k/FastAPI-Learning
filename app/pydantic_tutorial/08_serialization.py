@@ -1,4 +1,3 @@
-# 09_serialization.py
 from pydantic import BaseModel
 
 

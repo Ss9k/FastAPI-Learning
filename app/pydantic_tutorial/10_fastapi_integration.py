@@ -1,4 +1,3 @@
-# 11_fastapi_integration.py
 from fastapi import FastAPI, Field
 from pydantic import BaseModel
 

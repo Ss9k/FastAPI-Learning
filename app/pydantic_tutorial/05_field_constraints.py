@@ -1,4 +1,3 @@
-# 06_field_constraints.py
 from pydantic import BaseModel, Field
 
 

@@ -1,4 +1,3 @@
-# 08_strict_mode.py
 from pydantic import BaseModel, ConfigDict, ValidationError
 
 
