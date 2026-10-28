@@ -1,4 +1,5 @@
 from fastapi import APIRouter, File, Header, HTTPException, Query, UploadFile, status
+from app.models import DocumentResponse, DocumentListResponse
 
 router = APIRouter(prefix="/documents", tags=["Documents"])
 
@@ -34,7 +35,7 @@ async def upload_document(
 
 
 # 2. Path Parameters & Optional Query Parameters (GET all)
-@router.get("/")
+@router.get("/", response_model=DocumentListResponse)
 def get_documents(
     limit: int = Query(
         10, ge=1, le=50
